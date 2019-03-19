@@ -18,7 +18,7 @@ class App extends Component {
     return (
       <Fragment>
         <h1>Hello RocketSeat</h1>
-        <h2>{this.state.counter}</h2>
+        <h2 style={{ color: "#f00" }}>{this.state.counter}</h2>
         <Button onClick={this.handleClick}>Somar</Button>
       </Fragment>
     );
